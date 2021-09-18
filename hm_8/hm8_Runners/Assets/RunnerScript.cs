@@ -6,11 +6,9 @@ public class RunnerScript : MonoBehaviour
 {
     
     public Vector3[] points = new Vector3[4];
+    public Transform[] gg;
 
-    public GameObject point1; 
-    public GameObject point2; 
-    public GameObject point3; 
-    public GameObject point4;
+    
 
     private Vector3 target;
 
@@ -24,10 +22,10 @@ public class RunnerScript : MonoBehaviour
    
     void Start()
     {
-        points[0] = point1.transform.position;
-        points[1] = point2.transform.position;
-        points[2] = point3.transform.position;
-        points[3] = point4.transform.position;
+        for (int i = 0; i < points.Length; i++)
+        {
+            points[i] = gg[i].position;
+        }
         target = points[massNum];
     }
 

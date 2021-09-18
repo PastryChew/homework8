@@ -249,10 +249,11 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
-  point1: {fileID: 1729852096}
-  point2: {fileID: 1088526852}
-  point3: {fileID: 1824974461}
-  point4: {fileID: 951976542}
+  gg:
+  - {fileID: 1729852097}
+  - {fileID: 1088526853}
+  - {fileID: 1824974462}
+  - {fileID: 951976543}
   speed: 100
   forward: 1
 --- !u!1 &147007071
